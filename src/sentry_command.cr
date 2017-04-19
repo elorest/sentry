@@ -20,7 +20,7 @@ module Sentry
           name: name,
           process_name: "./#{name}",
           build: "crystal build ./src/#{name}.cr",
-          watch: ["./src/**/*.cr", "./src/**/*.ecr"]
+          watch: ["./src/**/*.cr", "./src/**/*.ecr", "./src/**/*.slang"]
         }
       end
 
